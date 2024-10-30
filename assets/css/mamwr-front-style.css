@@ -1,0 +1,11 @@
+p.mam_qty_notice {
+    padding: 8px;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    color: #000;
+    font-weight: 600;
+}
+
+ul.woocommerce-error {
+    display: block;
+}

@@ -1,0 +1,166 @@
+.mamwr-container h2 {
+    display: block;
+    font-size: 18px !important;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+p.mamwr-heading {
+    font-size: 20px !important;
+    font-weight: 600;
+    margin: 0;
+}
+.mamwr-inner-block {
+    margin-top: 10px;
+}
+.mamwr-inner-block ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.mamwr-inner-block ul.tabs li{
+    background: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 0;
+    border: 1px solid #d8d8d8;
+    margin-left: 0px;
+    margin-right: 2px;
+    background: #fff;
+    color: #222;
+    font-size: 13px;
+    padding: 7px 20px;
+}
+.mamwr-inner-block ul.tabs li.current{
+    color: #fff;
+    border: 1px solid #ccc;
+    background-color:#494d4e;
+    border-bottom: 0px;
+}
+.mamwr-inner-block .tab-content{
+    display: none;
+    padding: 15px;
+}
+.mamwr-inner-block .tab-content.current{
+    display: inherit;
+    border-top: 1px solid #d8d8d8;
+}
+p.mamwr-tips {
+    margin: 2px 0 5px !important;
+    color: #666;
+    font-size: 12px !important;
+    font-style: italic;
+}
+input#mamwr-btn-space {
+    margin: 25px 0px;
+}
+.mamwr_delivery_date_admin strong {
+    color: #000;
+}
+input.mamwr_msg {
+    width: 70%;
+}
+.ocmamqrw_rating_div {
+   width: 10%;
+   vertical-align: middle;
+}
+.mawr_qty_validation {
+    display: inline-block;
+    color: #ff0000;
+}
+.mawr_cost_validation {
+    display: inline-block;
+    color: #ff0000;
+}
+.mawr_vargrp {
+    display: block;
+}
+label.mamwr_pro_link {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+label.mamwr_pro_link_fw {
+    display: block;
+    padding-left: 0;
+    padding-top: 7px;
+}
+
+/*CSS for support rating donation start*/
+.mawr_rating_div {
+    width: 100px;
+    vertical-align: middle;
+}
+.mawr_ratesup_notice_main {
+    display: inline-block;
+    width: 100%;
+}
+.mawr_rateus_notice, .mawr_support_notice {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    color: #fff;
+    background-color: #fb5f51;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 70px;
+}
+.mawr_rateus_notice h3, .mawr_support_notice h3 {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.mawr_rateus_notice label, .mawr_support_notice label {
+    font-size: 16px;
+}
+.mawr_support_notice {
+    background-color: #2f3337;
+    margin-left: 2%;
+}
+.mawr_rateus_notice a, .mawr_support_notice a {
+    color: #fff;
+}
+.mawr_rtusnoti_left {
+    display: inline-block;
+    float: left;
+    width: 70%;
+}
+.mawr_rtusnoti_right {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.mawr_rtusnoti_right img {
+    width: 50px;
+    height: auto;
+}
+.mawr_donate_main {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    width: 94.6%;
+    border: 1px solid #e3bbac;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-top: 15px;
+}
+.mawr_donate_main img {
+    height: 32px;
+}
+.mawr_donate_main > * {
+    margin: 0 15px 0 0;
+    vertical-align: middle;
+}
+.mawr_donate_main h3 {
+    font-size: 15px;
+}
+.mawr_donate_form {
+    display: flex;
+}
+.mawr_donate_main .button {
+    text-align: center;
+}
+/*CSS for support rating donation end*/
